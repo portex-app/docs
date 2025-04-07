@@ -7,11 +7,11 @@ icon: boxes-packing
 
 # Overview
 
-## Portex SDK for Telegram
+## Portex SDK (beta)
 
 ### Install
 
-* import https://sdk.portex.app/portex-sdk.min.js to your mini-game
+* inline `https://sdk.portex.app/portex-sdk.min.js` to your mini-game
 * or build from source code
 
 ```bash
@@ -63,3 +63,7 @@ try {
 ### API Reference
 
 * [Portex SDK API](https://sdk.portex.app/docs/index.html)
+
+### Source
+
+{% @github-files/github-code-block url="https://github.com/portex-app/portex-sdk" %}

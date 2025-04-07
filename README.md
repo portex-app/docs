@@ -1,7 +1,7 @@
 ---
 icon: gamepad-modern
-cover: .gitbook/assets/ChatGPT Image 2025年4月7日 15_56_04.png
-coverY: 61
+cover: .gitbook/assets/welcome.png
+coverY: 104.95857988165682
 layout:
   cover:
     visible: true
@@ -42,7 +42,11 @@ Portex integrates Bot-as-a-Service for **one-click mini-game deployment** to mut
 
 ## Show Case
 
-*
+<div><figure><img src=".gitbook/assets/image.png" alt="" width="113"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/car.avif" alt="" width="113"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/CleanShot 2025-04-07 at 22.04.32@2x.png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+* **GameVa** [https://www.gameva.ai/](https://www.gameva.ai/)
+* **Televerse Odyssey** [https://t.me/TeleverseOdyssey\_bot/game](https://t.me/TeleverseOdyssey_bot/game)
+* **MadWheels** [https://t.me/MadWheels\_bot/game](https://t.me/MadWheels_bot/game)
 
 ## How to use
 
@@ -55,9 +59,13 @@ see more details in [Workflow](getting-started/workflow.md)
 
 <figure><img src="assets/contact.png" alt="contact us" width="128"><figcaption></figcaption></figure>
 
+[https://www.televerse.xyz/](https://www.televerse.xyz/)
+
 [https://t.me/televerseadmin](https://t.me/televerseadmin)
 
 [https://x.com/televerseXYZ](https://x.com/televerseXYZ)
+
+[https://github.com/portex-app](https://github.com/portex-app)
 
 [mailto:official@teletypes.io](mailto:official@teletypes.io)
 
