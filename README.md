@@ -1,7 +1,7 @@
 ---
-icon: hand-wave
-cover: https://gitbookio.github.io/onboarding-template-images/header.png
-coverY: 0
+icon: gamepad-modern
+cover: .gitbook/assets/ChatGPT Image 2025年4月7日 15_56_04.png
+coverY: 61
 layout:
   cover:
     visible: true
@@ -42,7 +42,7 @@ Portex integrates Bot-as-a-Service for **one-click mini-game deployment** to mut
 
 ## Show Case
 
-* 
+*
 
 ## How to use
 
@@ -51,13 +51,16 @@ Portex integrates Bot-as-a-Service for **one-click mini-game deployment** to mut
 
 see more details in [Workflow](getting-started/workflow.md)
 
-
 ## contact us
 
-<figure><img src="assets/contact.png" alt="contact us" width="128"></figure>
+<figure><img src="assets/contact.png" alt="contact us" width="128"><figcaption></figcaption></figure>
 
 [https://t.me/televerseadmin](https://t.me/televerseadmin)
 
 [https://x.com/televerseXYZ](https://x.com/televerseXYZ)
 
 [mailto:official@teletypes.io](mailto:official@teletypes.io)
+
+## More Topic
+
+<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>How build mini-game with portex</td><td><a href="getting-started/workflow.md">workflow.md</a></td></tr><tr><td>How to use portex cli</td><td><a href="cli/cli.md">cli.md</a></td></tr><tr><td>About Portex SDK</td><td><a href="sdk/overview.md">overview.md</a></td></tr></tbody></table>

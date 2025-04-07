@@ -1,25 +1,34 @@
-# Portex SDK Social Invite
+---
+description: >-
+  portex.invite is a feature that allows users to invite their friends to join
+  the game.
+icon: users
+---
 
-* `portex.invite` is a feature that allows users to invite their friends to join the game.
+# Invite Friends
 
 ## API Documentation
 
 * open dialog to invite friends to join the game
+
 ```typescript
 invite(options: InviteOptions): Promise<InviteResult>
 ```
 
 * get invite url, don't open dialog
+
 ```typescript
 getInviteUrl(options: InviteOptions): Promise<InviteResult>
 ```
 
 * get invite payload, get/set invite payload to server, with a limit of over 64 characters
+
 ```typescript
 getInvitePayload(key: string): Promise<InvitePayloadResult>
 ```
 
 * get start param
+
 ```typescript
 getStartParam(): string
 ```
@@ -62,6 +71,7 @@ const inviteResult = await portex.invite({
   start_param: 'custom-data'
 }); 
 ```
+
 ## Notes
 
 * `payload` & `start_param` use one of them, not both

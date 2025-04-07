@@ -2,7 +2,7 @@
 icon: message-question
 ---
 
-# FAQ
+# FAQs
 
 ### What is Portex?
 
@@ -15,6 +15,7 @@ Portex CLI is a command line tool for creating and managing mini-games on multip
 how to use portex cli? see [Portex CLI](cli/overview.md)
 
 ### How to get portex cli access token?
+
 now portex cli is in beta, you can get access token from [https://t.me/televerseadmin](https://t.me/televerseadmin), or contact us with email [mailto:official@teletypes.io](mailto:official@teletypes.io)
 
 ### What is Portex SDK?
@@ -22,5 +23,3 @@ now portex cli is in beta, you can get access token from [https://t.me/televerse
 Portex SDK is a software development kit for creating mini-games on multiple platforms.
 
 more details see [Portex SDK](sdk/overview.md)
-
-(work in progress...)

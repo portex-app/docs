@@ -1,11 +1,11 @@
 ---
-icon: cubes
+description: >-
+  Portex SDK is a development kit for creating mini-games on telegram, web and
+  other platforms.
+icon: boxes-packing
 ---
 
-# Portex SDK Overview
-
-Portex SDK is a software development kit for creating mini-games on telegram, web and other platforms.
-
+# Overview
 
 ## Portex SDK for Telegram
 
@@ -23,6 +23,7 @@ pnpm build
 ```
 
 ### Usage
+
 > Note: this is a beta version, you can only use it in telegram. get app-id from [Portex CLI](../cli/overview.md)
 
 * initialize Portex SDK with your app-id
@@ -47,7 +48,8 @@ try {
 }
 
 ```
-* SDK Demo: https://t.me/portex_app_bot?startapp
+
+* SDK Demo: https://t.me/portex\_app\_bot?startapp
 
 ### SDK Features
 

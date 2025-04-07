@@ -1,10 +1,16 @@
-# Portex SDK Payment
+---
+description: >-
+  portex.pay is a feature that allows users to pay for virtual goods. (now only
+  for telegram StarFi)
+icon: cart-shopping
+---
 
-* `portex.pay` is a feature that allows users to pay for virtual goods. (now only for telegram StarFi)
+# Payment
 
 ![portex.pay](../assets/pay_star.png)
 
 ## Features
+
 * customizable payment goods
 * serverless payment process
 * payment status tracking
@@ -13,6 +19,7 @@
 ## API Documentation
 
 * open payment dialog
+
 ```typescript
 pay(
     options: PaymentOptions,
@@ -21,11 +28,13 @@ pay(
 ```
 
 * query payment order
+
 ```typescript
 queryOrder(orderId: string): Promise<OrderResult>
 ```
 
 * resume payment
+
 ```typescript
 resumePayment(
     callback?: (result: InvoiceClosedResult) => void,
@@ -33,6 +42,7 @@ resumePayment(
 ```
 
 * check pending payment
+
 ```typescript
 hasPendingPayment(): boolean
 ```
