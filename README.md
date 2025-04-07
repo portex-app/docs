@@ -18,35 +18,37 @@ layout:
     visible: true
 ---
 
-# Introduction to Portex
+# Introduction
+
+## Introduction to Portex
 
 Portex integrates Bot-as-a-Service for **one-click mini-game deployment** to mutiple platforms, reducing over 90% of cross-platform compatiability work.
 
-![Portex infra](/assets/portex.png)
+![Portex infra](assets/portex.png)
 
-# Benefits
-* easy to launch mini-game, low learning curve
-* seamless integration with Telegram, and more platforms
-* integration with Web3, Social Invite, StarFi, etc.
+## Benefits
 
-# Key Features
+* Easy to launch mini-game, low learning curve
+* Seamless integration with Telegram, and more platforms
+* Integration with Web3, Social Invite, StarFi, etc.
+
+## Key Features
+
 * **One-click Deployment**: Deploy mini-games across multiple platforms with a single click, reducing distribution costs.
 * **Bot as a Service**: Seamless community management service for games, enabling automated user engagement.
 * **Web3 Gaming**: Integrate decentralized identity verification and digital wallet functionalities for secure authentication and seamless transactions.
 * **Commercialization**: StarFi integration for in-game purchases & Social Invite for community growth.
 * **Gameplay Features**: Leaderboard, GameSave, and more. (Coming soon)
 
+## How to use
 
-# How to use
+first, use [portex cli](cli/overview.md) to create a new mini-game, deploy it, and publish it.&#x20;
 
-first, use [portex cli](/cli/overview.md) to create a new mini-game, deploy it, and publish it.
+then, integrate [portex sdk](sdk/overview.md) to develop your mini-game.
 
-then, integrate [portex sdk](/sdk/overview.md) to develop your mini-game.
+![Portex workflow](assets/workflow.png)
 
-![Portex workflow](/assets/workflow.png)
-
-
-# Quick Start
+## Quick Start
 
 ```bash
 # install portex cli
@@ -59,18 +61,19 @@ portex login
 portex new
 ```
 
-see more details in [Quick Start](/cli/overview.md)
-then, integrate [portex sdk](/sdk/overview.md) to develop your mini-game.
+see more details in [Quick Start](cli/overview.md)\
+then, integrate [portex sdk](sdk/overview.md) to develop your mini-game.
 
-# How to get Portex Token
+## How to get Portex Token
 
 contact us to get a Portex Token.
 
-# contact us
+## contact us
 
-![contact us](/assets/contact.png)
+<figure><img src="assets/contact.png" alt="contact us" width="128"><figcaption><p>contact us</p></figcaption></figure>
 
-[Telegram](https://t.me/televerseadmin)
-[Email](official@teletypes.io)
-[Twitter](https://x.com/televerseXYZ)
+[https://x.com/televerseXYZ](https://x.com/televerseXYZ)
 
+[https://t.me/televerseadmin](https://t.me/televerseadmin)
+
+[mailto:official@teletypes.io](mailto:official@teletypes.io)
