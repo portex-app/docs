@@ -42,37 +42,18 @@ Portex integrates Bot-as-a-Service for **one-click mini-game deployment** to mut
 
 ## How to use
 
-first, use [portex cli](cli/overview.md) to create a new mini-game, deploy it, and publish it.&#x20;
-
-then, integrate [portex sdk](sdk/overview.md) to develop your mini-game.
-
-![Portex workflow](assets/workflow.png)
-
-## Quick Start
-
-```bash
-# install portex cli
-npm install -g @portex-app/portex-cli
-
-# login portex cli
-portex login
-
-# create a new mini-game
-portex new
-```
+1. first, use [portex cli](cli/overview.md) to create a new mini-game, deploy it, and publish it.
+2. then, integrate [portex sdk](sdk/overview.md) to develop your mini-game.
 
 see more details in [Workflow](getting-started/workflow.md)
 
-## How to get Portex Token
-
-contact us to get a Portex Token.
 
 ## contact us
 
-<figure><img src="assets/contact.png" alt="contact us" width="128"><figcaption><p>contact us</p></figcaption></figure>
-
-[https://x.com/televerseXYZ](https://x.com/televerseXYZ)
+<figure><img src="assets/contact.png" alt="contact us" width="128"></figure>
 
 [https://t.me/televerseadmin](https://t.me/televerseadmin)
+
+[https://x.com/televerseXYZ](https://x.com/televerseXYZ)
 
 [mailto:official@teletypes.io](mailto:official@teletypes.io)

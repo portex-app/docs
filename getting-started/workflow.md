@@ -44,5 +44,5 @@ const result = await sdk.init();
 more details in [Portex SDK](sdk/overview.md)
 
 ## 5. publish your mini-game for production
-* run `portex publish -e prod` to publish your mini-game for production
+* run `portex publish` to publish your mini-game for production
 
