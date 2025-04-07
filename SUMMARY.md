@@ -1,15 +1,28 @@
 # Table of contents
 
-* [Welcome](README.md)
-
 ## Getting Started
 
-* [Quickstart](getting-started/quickstart.md)
+* [Introduction](README.md)
+* [Quick Start](getting-started/quickstart.md)
 
-## Tools
+## CLI
 
-* [Portex SDK](tools/portex-sdk.md)
+* [Overview](cli/overview.md)
+* [Install](sdk/install.md)
+* [login](sdk/login.md)
+* [new](sdk/new.md)
+* [ls](sdk/ls.md)
+* [deploy](sdk/deploy.md)
+* [publish](sdk/publish.md)
+* [bot](sdk/bot.md)
 
-***
 
-* [Portex Tools](portex-tools.md)
+## SDK
+
+* [Overview](sdk/overview.md)
+* [Quick Start](sdk/overview.md)
+
+
+## guide
+
+* [practice](guide/practice.md)
