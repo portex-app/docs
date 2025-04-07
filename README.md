@@ -1,11 +1,6 @@
 ---
 icon: gamepad-modern
-cover: .gitbook/assets/welcome.png
-coverY: 104.95857988165682
 layout:
-  cover:
-    visible: true
-    size: full
   title:
     visible: true
   description:
@@ -55,7 +50,7 @@ Portex integrates Bot-as-a-Service for **one-click mini-game deployment** to mut
 
 see more details in [Workflow](getting-started/workflow.md)
 
-## contact us
+## Contact us
 
 <figure><img src="assets/contact.png" alt="contact us" width="128"><figcaption></figcaption></figure>
 
@@ -71,4 +66,4 @@ see more details in [Workflow](getting-started/workflow.md)
 
 ## More Topic
 
-<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>How build mini-game with portex</td><td><a href="getting-started/workflow.md">workflow.md</a></td></tr><tr><td>How to use portex cli</td><td><a href="cli/cli.md">cli.md</a></td></tr><tr><td>About Portex SDK</td><td><a href="sdk/overview.md">overview.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Build mini-game with portex</td><td><a href="getting-started/workflow.md">workflow.md</a></td></tr><tr><td>How to use portex cli</td><td><a href="cli/cli.md">cli.md</a></td></tr><tr><td>About Portex SDK</td><td><a href="sdk/overview.md">overview.md</a></td></tr></tbody></table>
