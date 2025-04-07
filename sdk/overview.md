@@ -1,6 +1,2 @@
----
-icon: cubes
----
-
-# Overview
+# Portex SDK
 
