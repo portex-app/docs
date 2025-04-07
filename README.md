@@ -1,6 +1,11 @@
 ---
 icon: gamepad-modern
+cover: .gitbook/assets/portex_welcome.jpg
+coverY: 32.04159733777038
 layout:
+  cover:
+    visible: true
+    size: full
   title:
     visible: true
   description:
