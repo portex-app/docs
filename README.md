@@ -1,7 +1,7 @@
 ---
 icon: gamepad-modern
 cover: .gitbook/assets/portex_welcome.jpg
-coverY: 64.05001839040196
+coverY: -105.16891652084065
 layout:
   cover:
     visible: true
@@ -20,7 +20,7 @@ layout:
 
 # Introduction
 
-## Introduction to Portex
+## What's Portex
 
 Portex integrates Bot-as-a-Service for **one-click mini-game deployment** to mutiple platforms, reducing over 90% of cross-platform compatiability work.
 
