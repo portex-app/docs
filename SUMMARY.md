@@ -3,8 +3,8 @@
 ## Getting Started
 
 * [Introduction](README.md)
-* [Quick Start](getting-started/quickstart.md)
-* [FAQ](getting-started/faq.md)
+* [Workflow](getting-started/workflow.md)
+* [FAQs](getting-started/faqs.md)
 
 ## SDK
 
@@ -12,5 +12,4 @@
 
 ## Guides
 
-* [Workflow](guide/workflow.md)
-* [CLI](guides/cli.md)
+* [Use CLI](guides/cli.md)

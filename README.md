@@ -61,8 +61,7 @@ portex login
 portex new
 ```
 
-see more details in [Quick Start](cli/overview.md)\
-then, integrate [portex sdk](sdk/overview.md) to develop your mini-game.
+see more details in [Workflow](getting-started/workflow.md)
 
 ## How to get Portex Token
 
