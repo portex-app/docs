@@ -9,6 +9,9 @@
 ## SDK
 
 * [Overview](sdk/overview.md)
+* [Social Invite](sdk/social.md)
+* [Payment](sdk/payment.md)
+* [Webapp Adapter](sdk/webapp.md)
 
 ## Guides
 

@@ -40,6 +40,10 @@ Portex integrates Bot-as-a-Service for **one-click mini-game deployment** to mut
 * **Commercialization**: StarFi integration for in-game purchases & Social Invite for community growth.
 * **Gameplay Features**: Leaderboard, GameSave, and more. (Coming soon)
 
+## Show Case
+
+* 
+
 ## How to use
 
 1. first, use [portex cli](cli/overview.md) to create a new mini-game, deploy it, and publish it.
