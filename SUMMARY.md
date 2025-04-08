@@ -8,7 +8,7 @@
 
 ## CLI
 
-- [Overview](cli/cli.md)
+- [Overview](cli/overview.md)
 - [New Mini-app](cli/new.md)
 - [Check Mini-app](cli/ls.md)
 - [Deploy Mini-app](cli/deploy.md)
