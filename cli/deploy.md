@@ -1,7 +1,3 @@
-好的，以下是结合您的文本后更新的 `deploy.md` 文档，已经补充了有关版本信息和其他操作的内容：
-
----
-
 # Deploy Mini-App
 
 ```bash
@@ -67,7 +63,3 @@ portex deploy MyApp ./build "This is a description for a test application"
 
 - **View Version Information**: You can use the `portex ls` command to retrieve version information and check the status of version releases.
 - **Publish Version**: To publish a version to a specified environment, you can use the `portex publish` command with the version number.
-
----
-
-这份文档结合了您提供的内容，详细说明了 `portex deploy` 命令的使用方法、工作流、成功与失败信息、以及如何查看和发布版本信息。请告诉我是否还需要进一步的调整！

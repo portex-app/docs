@@ -14,14 +14,14 @@
 - [Deploy Mini-app](cli/deploy.md)
 - [Publish Mini-app](cli/publish.md)
 - Bot Manager
-  - [Bind Telegram Bot](cli/commands/bot/register.md)
-  - [Get Bot Info](cli/commands/bot/bot.md)
+  - [Bind Telegram Bot](cli/bot-register.md)
+  - [Get Bot Info](cli/bot-info.md)
   - Bot Menu
-    - [Set Menu Button](cli/commands/bot/menu/set.md)
+    - [Set Menu Button](cli/bot-menu-set.md)
   - Bot Message
-    - [List Messages](cli/commands/bot/message/ls.md)
-    - [Save Message](cli/commands/bot/message/save.md)
-    - [Delete Message](cli/commands/bot/message/del.md)
+    - [List Messages](cli/bot-message-ls.md)
+    - [Save Message](cli/bot-message-save.md)
+    - [Delete Message](cli/bot-message-del.md)
 
 ## SDK
 
