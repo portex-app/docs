@@ -20,7 +20,7 @@ layout:
 
 # Introduction
 
-## What's Portex
+## What is Portex?
 
 Portex integrates Bot-as-a-Service for **one-click mini-game deployment** to mutiple platforms, reducing over 90% of cross-platform compatiability work.
 
@@ -28,32 +28,33 @@ Portex integrates Bot-as-a-Service for **one-click mini-game deployment** to mut
 
 ## Benefits
 
-- Easy to launch mini-game, low learning curve
-- Seamless integration with Telegram, and more platforms
-- Integration with Web3, Social Invite, StarFi, etc.
+* Easy to launch mini-game, low learning curve
+* Seamless integration with Telegram, and more platforms
+* Blockchain integration, friend referrals system, Telegram StarFi and etc. \
+
 
 ## Key Features
 
-- **One-click Deployment**: Deploy mini-games across multiple platforms with a single click, reducing distribution costs.
-- **Bot as a Service**: Seamless community management service for games, enabling automated user engagement.
-- **Web3 Gaming**: Integrate decentralized identity verification and digital wallet functionalities for secure authentication and seamless transactions.
-- **Commercialization**: StarFi integration for in-game purchases & Social Invite for community growth.
-- **Gameplay Features**: Leaderboard, GameSave, and more. (Coming soon)
+* **One-click Deployment**: Deploy mini-games across multiple platforms with a single click, reducing distribution costs.
+* **Bot as a Service**: Seamless community management service for games, enabling automated user engagement.
+* **Web3 Gaming**: Integrate decentralized identity verification and digital wallet functionalities for secure authentication and seamless transactions.
+* **Monetization**: StarFi integration for in-game purchases & and withdrawl
+* **Gameplay Features**: Leaderboard, GameSave, and more. (Coming soon)
 
-## Show Case
+## Showcase
 
 <div><figure><img src=".gitbook/assets/image.png" alt="" width="113"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/car.avif" alt="" width="113"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/CleanShot 2025-04-07 at 22.04.32@2x.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-- **GameVa** [https://www.gameva.ai/](https://www.gameva.ai/)
-- **Televerse Odyssey** [https://t.me/TeleverseOdyssey_bot/game](https://t.me/TeleverseOdyssey_bot/game)
-- **MadWheels** [https://t.me/MadWheels_bot/game](https://t.me/MadWheels_bot/game)
+* **GameVa** [https://www.gameva.ai/](https://www.gameva.ai/)
+* **Televerse Odyssey** [https://t.me/TeleverseOdyssey\_bot/game](https://t.me/TeleverseOdyssey_bot/game)
+* **MadWheels** [https://t.me/MadWheels\_bot/game](https://t.me/MadWheels_bot/game)
 
-## How to use
+## How It Works?
 
-1. first, use [portex cli](cli/overview.md) to create a new mini-game, deploy it, and publish it.
-2. then, integrate [portex sdk](sdk/overview.md) to develop your mini-game.
+1. First, use [portex cli](cli/overview.md) to create a new mini-game, deploy it, and publish it.
+2. Integrate [portex sdk](sdk/overview.md) to develop your mini-game.
 
-see more details in [Workflow](getting-started/workflow.md)
+See more details in [Workflow](getting-started/workflow.md)
 
 ## Contact us
 
