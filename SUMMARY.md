@@ -26,6 +26,6 @@
 ## SDK
 
 * [Overview](sdk/overview.md)
-* [Invite Friends](sdk/social.md)
+* [Friend Referral](sdk/social.md)
 * [Payment](sdk/payment.md)
 * [Webapp Adapter](sdk/webapp.md)
