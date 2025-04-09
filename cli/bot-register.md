@@ -1,4 +1,4 @@
-# Register Telegram Bot
+# Bind Telegram Bot
 
 ```bash
 # Register Telegram Bot
@@ -7,12 +7,12 @@ portex bot register <app-name> <bot-token>
 
 ## Description
 
-The `portex register` command is used to register a Telegram bot for a specified application. This command allows users to bind a Telegram bot to their application by providing the application name and bot token. It verifies the platform and attempts to register the bot, handling any errors that may occur during the process.
+The `portex register` command is used to register a Telegram bot for a specified application. This command allows users to bind a Telegram bot to their application by providing the application name and tg bot token. It verifies with telegram and attempts to register the bot, handling any errors that may occur during the process.
 
 ## Parameters
 
-- `<app-name>`: The name of the application to deploy. This parameter is required.
-- `<bot-token>`: The token of the Telegram bot. This parameter is also required.
+* `<app-name>`: The name of the application to deploy. This parameter is required.
+* `<bot-token>`: The token of the Telegram bot. This parameter is also required.
 
 **Tip**: To obtain your bot token, you need to create a new bot using [BotFather](https://t.me/botfather) on Telegram. Follow these steps:
 
@@ -30,6 +30,6 @@ portex register MyApp ‘123456:ABC-DEF1234ghIkl-zyx57W2P0’
 
 ## Notes
 
-- The command will throw an error if the platform is not 'Telegram', indicating that only the Telegram platform supports this command.
-- If the binding fails, an appropriate error message will be displayed.
-- **Unbind Bot**: Not supported; the current version does not support unbinding Telegram bots.
+* The command will throw an error if the platform is not 'Telegram', indicating that only the Telegram platform supports this command.
+* If the binding fails, an appropriate error message will be displayed.
+* **Unbind Bot**: Not supported; the current version does not support unbinding Telegram bots.

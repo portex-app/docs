@@ -1,7 +1,7 @@
 ---
 description: >-
   portex.pay is a feature that allows users to pay for virtual goods. (now only
-  for telegram StarFi)
+  for telegram stars)
 icon: cart-shopping
 ---
 
