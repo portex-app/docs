@@ -33,4 +33,4 @@ portex.webApp.close();//A method that closes the Mini App.
 
 ## API Documentation
 
-https://sdk.portex.app/docs/interfaces/core\_types.WebApp.html
+[https://sdk.portex.app/docs/interfaces/core\_types.WebApp.html](https://sdk.portex.app/docs/interfaces/core_types.WebApp.html)
