@@ -1,4 +1,8 @@
-# List Applications
+---
+icon: table-list
+---
+
+# Check Mini-app
 
 ```bash
 # List applications
@@ -36,53 +40,28 @@ portex ls -p web
 
 ## Success and Failure Messages
 
-- **Success**: When the list of applications is successfully fetched, the applications will be displayed in a tabular format, including details such as application ID, name, platform, description, and version.
+*   **Success**: When the list of applications is successfully fetched, the applications will be displayed in a tabular format, including details such as application ID, name, platform, description, and version.
 
-  **Sample Output**:
+    **Sample Output**:
 
-<table border>
-  <thead >
-    <tr>
-      <th rowspan="2">appliaction_id</th>
-      <th rowspan="2">app_name</th>
-      <th rowspan="2">platform_name</th>
-      <th rowspan="2">description</th>
-      <th colspan="4">version</th>
-    </tr>
-    <tr>
-      <th>last</th>
-      <th>dev</th>
-      <th>test</th>
-      <th>prod</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>2vHJYRLPpqL8jEq5J79pse2uPV0</td>
-      <td>gameva</td>
-      <td>Web</td>
-      <td>-</td>
-      <td>17</td>
-      <td>12</td>
-      <td>17</td>
-      <td>17</td>
-    </tr>
-  </tbody>
-</table>
+| appliaction\_id             | app\_name | platform\_name | description | version |    |    |    |
+| --------------------------- | --------- | -------------- | ----------- | ------- | -- | -- | -- |
+| last                        | dev       | test           | prod        |         |    |    |    |
+| 2vHJYRLPpqL8jEq5J79pse2uPV0 | gameva    | Web            | -           | 17      | 12 | 17 | 17 |
 
-- **Failure**: If no applications are found based on the filters or if an error occurs during the fetching process, you will see the following messages:
-  - `No application found, please create an application first`
-  - `Get application list error`
+* **Failure**: If no applications are found based on the filters or if an error occurs during the fetching process, you will see the following messages:
+  * `No application found, please create an application first`
+  * `Get application list error`
 
 ## Notes
 
-- **Filtering**: You can filter the list of applications by providing one or more flags:
-  - `-i` for the application ID
-  - `-n` for the application name
-  - `-p` for the platform name (e.g., `web`, `telegram`)
-- **Tabular Output**: The applications are displayed in a table with the following columns:
-  - **appliaction_id**: The unique ID of the application.
-  - **app_name**: The name of the application.
-  - **platform_name**: The platform on which the application is deployed (e.g., `web`).
-  - **description**: A brief description of the application.
-  - **version**: The application version, including its last, development, test, and production versions.
+* **Filtering**: You can filter the list of applications by providing one or more flags:
+  * `-i` for the application ID
+  * `-n` for the application name
+  * `-p` for the platform name (e.g., `web`, `telegram`)
+* **Tabular Output**: The applications are displayed in a table with the following columns:
+  * **appliaction\_id**: The unique ID of the application.
+  * **app\_name**: The name of the application.
+  * **platform\_name**: The platform on which the application is deployed (e.g., `web`).
+  * **description**: A brief description of the application.
+  * **version**: The application version, including its last, development, test, and production versions.

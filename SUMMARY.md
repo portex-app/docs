@@ -4,6 +4,7 @@
 
 * [Introduction](README.md)
 * [Workflow](getting-started/workflow.md)
+* [ShowCase](getting-started/showcase.md)
 * [FAQs](getting-started/faqs.md)
 
 ## CLI

@@ -1,4 +1,8 @@
-# Deploy Mini-App
+---
+icon: upload
+---
+
+# Deploy Mini-app
 
 ```bash
 # Deploy a mini-app
@@ -38,28 +42,27 @@ portex deploy MyApp ./build "This is a description for a test application"
 
 ## Success and Failure Messages
 
-- **Success**: After a successful deployment, the system will display:
+*   **Success**: After a successful deployment, the system will display:
 
-  ```
-  Deploy success
-  Application Last Version: 1
-  You can use 'portex publish MyApp 1 [-e dev|test|prod]' command to publish application
-  ```
+    ```
+    Deploy success
+    Application Last Version: 1
+    You can use 'portex publish MyApp 1 [-e dev|test|prod]' command to publish application
+    ```
+*   **Failure**: If the deployment process fails at any stage, you will see an error message such as:
 
-- **Failure**: If the deployment process fails at any stage, you will see an error message such as:
-
-  ```
-  Deploy failed
-  ```
+    ```
+    Deploy failed
+    ```
 
 ## Notes
 
-- **Compression**: The application folder is compressed into a zip file before being uploaded.
-- **Old Files Cleanup**: The system will automatically clear out old deployment files, retaining only the four most recent ones.
-- **Progress Bar**: A progress bar will be shown during the file upload to indicate the upload progress.
-- **Application Last Version**: After deployment, the last deployed version is displayed, and you can use the `portex publish` command with the next version number to publish the application.
+* **Compression**: The application folder is compressed into a zip file before being uploaded.
+* **Old Files Cleanup**: The system will automatically clear out old deployment files, retaining only the four most recent ones.
+* **Progress Bar**: A progress bar will be shown during the file upload to indicate the upload progress.
+* **Application Last Version**: After deployment, the last deployed version is displayed, and you can use the `portex publish` command with the next version number to publish the application.
 
 ## Additional Information
 
-- **View Version Information**: You can use the `portex ls` command to retrieve version information and check the status of version releases.
-- **Publish Version**: To publish a version to a specified environment, you can use the `portex publish` command with the version number.
+* **View Version Information**: You can use the `portex ls` command to retrieve version information and check the status of version releases.
+* **Publish Version**: To publish a version to a specified environment, you can use the `portex publish` command with the version number.

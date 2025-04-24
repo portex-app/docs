@@ -1,5 +1,5 @@
 ---
-icon: gamepad-modern
+icon: hand-wave
 cover: .gitbook/assets/about portex
 coverY: 0
 layout:
@@ -43,11 +43,13 @@ Portex integrates Bot-as-a-Service for **one-click mini-game deployment** to mut
 
 ## Showcase
 
-<div><figure><img src=".gitbook/assets/image.png" alt="" width="113"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/car.avif" alt="" width="113"><figcaption></figcaption></figure> <figure><img src=".gitbook/assets/CleanShot 2025-04-07 at 22.04.32@2x.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/AirForce.png" alt="" width="113"><figcaption><p><strong>AirForce 1945</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/mini football.png" alt="" width="113"><figcaption><p><strong>Mini Football Game</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/car.avif" alt="" width="113"><figcaption><p><strong>Mad Wheels</strong></p></figcaption></figure></div>
 
-* **GameVa** [https://www.gameva.ai/](https://www.gameva.ai/)
-* **Televerse Odyssey** [https://t.me/TeleverseOdyssey\_bot/game](https://t.me/TeleverseOdyssey_bot/game)
-* **MadWheels** [https://t.me/MadWheels\_bot/game](https://t.me/MadWheels_bot/game)
+* **AirForce 1945** [https://t.me/AirForce1945\_bot/game](https://t.me/AirForce1945_bot/game)
+* **Mini Football** [https://t.me/miniFootballgame\_bot?startapp=portex](https://t.me/miniFootballgame_bot?startapp=portex)
+* **MadWheels** [https://t.me/MadWheels\_bot](https://t.me/MadWheels_bot)
+
+🎮 [Show me more...](getting-started/showcase.md)
 
 ## How It Works?
 

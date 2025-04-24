@@ -1,2 +1,6 @@
+---
+icon: robot
+---
+
 # Bot Manager
 
