@@ -29,7 +29,7 @@ Check out this demo of a game launched using Portex.
 
 ***
 
-#### ☕️ Simulation Game
+#### ☕️ Simulation Games
 
 <div><figure><img src="../.gitbook/assets/image.png" alt="" width="113"><figcaption><p><strong>Odyssey</strong></p></figcaption></figure> <figure><img src="../.gitbook/assets/IdleConstruction.png" alt="" width="113"><figcaption><p><strong>Idle Construction</strong></p></figcaption></figure></div>
 
