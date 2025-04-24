@@ -15,7 +15,7 @@ Check out this demo of a game launched using Portex.
 <div align="center"><figure><img src="../.gitbook/assets/AirForce.png" alt="" width="113"><figcaption><p><strong>AirForce 1945</strong></p></figcaption></figure> <figure><img src="../.gitbook/assets/Dawn of Zombies.png" alt="" width="113"><figcaption><p><strong>Dawn of zombie</strong></p></figcaption></figure></div>
 
 * **AirForce 1945** [https://t.me/AirForce1945\_bot/game](https://t.me/AirForce1945_bot/game)
-* **Dawn of zombie** [ ](https://t.me/Dawnofzombie_bot?startapp)[https://t.me/Dawnofzombie\_bot?startapp](https://t.me/Dawnofzombie_bot?startapp)
+* **Dawn of zombie** [https://t.me/Dawnofzombie\_bot?startapp](https://t.me/Dawnofzombie_bot?startapp)
 
 ***
 
