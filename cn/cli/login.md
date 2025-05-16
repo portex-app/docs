@@ -1,47 +1,47 @@
-# Login to Portex
+# 登录到 Portex
 
 ```bash
-# Login to Portex account
+# 登录到 Portex 账户
 portex login
 ```
 
-## Description
+## 描述
 
-The `portex login` command is used to authenticate and log in to your Portex account. It prompts you to enter your account credentials (username and password), and then sends the login request to the Portex API. Upon successful login, the authentication token is saved to the local configuration file.
+`portex login` 命令用于验证并登录到您的 Portex 账户。它会提示您输入账户凭据（用户名和密码），然后将登录请求发送到 Portex API。登录成功后，认证令牌将保存到本地配置文件中。
 
-## Parameters
+## 参数
 
-None
+无
 
-## Example
+## 示例
 
 ```bash
-# Login to Portex account interactively
+# 交互式登录到 Portex 账户
 portex login
 ```
 
-## Interactive Input
+## 交互式输入
 
-- The system will prompt you to enter your **account** (login name).
-- Then, it will prompt you for your **password** (hidden input).
-- After successful input, the credentials are sent to the Portex API for authentication.
+- 系统会提示您输入**账户**（登录名）。
+- 然后，它会提示您输入**密码**（隐藏输入）。
+- 成功输入后，凭据将发送到 Portex API 进行认证。
 
-## Success and Failure Messages
+## 成功和失败消息
 
-- **Success**: Upon successful login, the system will display the following success message:
-
-  ```
-  Initialization completed. Congratulations! 🎉 🎉 🎉
-  ```
-
-- **Failure**: If the login fails, you will receive an error message:
+- **成功**：登录成功后，系统将显示以下成功消息：
 
   ```
-  Initialization failed, please try again
+  初始化完成。恭喜！🎉 🎉 🎉
   ```
 
-## Notes
+- **失败**：如果登录失败，您将收到错误消息：
 
-- **Token Storage**: After a successful login, the authentication token is saved to the local configuration file, allowing you to authenticate for subsequent requests without needing to log in again.
+  ```
+  初始化失败，请重试
+  ```
 
-- **Configuration Directory**: If the configuration directory does not exist, it will be created automatically before storing the authentication token.
+## 注意事项
+
+- **令牌存储**：登录成功后，认证令牌将保存到本地配置文件中，允许您在后续请求中进行认证，无需再次登录。
+
+- **配置目录**：如果配置目录不存在，系统将在存储认证令牌之前自动创建它。

@@ -1,43 +1,43 @@
-# Delete Telegram Bot Messages
+# 删除 Telegram 机器人消息
 
 ```bash
-# Delete messages of a Telegram bot
+# 删除 Telegram 机器人的消息
 portex bot message del <app-name> [keys...]
 ```
 
-## Description
+## 描述
 
-The `portex bot message del` command is used to delete one or more messages associated with a specified Telegram bot for a given application. This command allows users to remove specific messages by providing their keys.
+`portex bot message del` 命令用于删除指定应用的 Telegram 机器人的一个或多个消息。此命令允许用户通过提供消息的键来删除特定消息。
 
-## Parameters
+## 参数
 
-| Type     | Argument/Flag | Description                                                                              | Required |
+| 类型     | 参数/标志      | 描述                                                                              | 是否必需 |
 | -------- | ------------- | ---------------------------------------------------------------------------------------- | -------- |
-| **Args** | `<app-name>`  | **Required**: The name of the application for which to delete messages.                  | Yes      |
-| **Args** | `[keys...]`   | **Optional**: The keys of the messages to be deleted. At least one key must be provided. | No       |
+| **参数** | `<app-name>`  | **必需**：要删除消息的应用名称。                  | 是      |
+| **参数** | `[keys...]`   | **可选**：要删除的消息的键。必须提供至少一个键。 | 否       |
 
-## Example
+## 示例
 
 ```bash
-# Delete messages with keys "command1" and "command2" for the application named "MyApp"
+# 删除名为 "MyApp" 的应用中键为 "command1" 和 "command2" 的消息
 portex bot message del MyApp command1 command2
 ```
 
-## Success and Failure Messages
+## 成功和失败消息
 
-- **Success**: If the messages are deleted successfully, you will see the following message:
+- **成功**：如果消息删除成功，您将看到以下消息：
 
-  - `Bot message(s) deleted successfully`
+  - `机器人消息删除成功`
 
-- **Failure**: If an error occurs during the deletion process, you will see the following message:
-  - `Failed to delete bot message(s)`
-  - If the application is not bound to a Telegram Bot, the following message will be displayed:
-    - `Telegram Application is not bound to a Telegram bot. Please use 'portex bot register <application_name> <bot_token>' to bind a Telegram bot before deleting messages.`
-  - If the platform is not Telegram, the following message will be displayed:
-    - `Only Telegram Application supports.`
+- **失败**：如果在删除过程中发生错误，您将看到以下消息：
+  - `删除机器人消息失败`
+  - 如果应用未绑定 Telegram 机器人，将显示以下消息：
+    - `Telegram 应用未绑定 Telegram 机器人。请使用 'portex bot register <application_name> <bot_token>' 在删除消息之前绑定 Telegram 机器人。`
+  - 如果平台不是 Telegram，将显示以下消息：
+    - `仅支持 Telegram 应用。`
 
-## Notes
+## 注意事项
 
-- **Platform Support**: The `portex bot message del` command is only supported for applications bound to the Telegram platform.
-- **Key Requirement**: At least one message key must be provided for deletion.
-- **Error Handling**: Make sure to handle any potential errors during the deletion process to provide appropriate feedback.
+- **平台支持**：`portex bot message del` 命令仅支持绑定到 Telegram 平台的应用。
+- **键要求**：必须提供至少一个消息键才能删除。
+- **错误处理**：确保在删除过程中处理任何潜在错误，以提供适当的反馈。

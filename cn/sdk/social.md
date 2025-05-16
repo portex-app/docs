@@ -1,77 +1,76 @@
 ---
 description: >-
-  portex.invite is a feature that allows users to invite their friends to join
-  the game.
+  portex.invite 是一个允许用户邀请好友加入游戏的功能。
 icon: users
 ---
 
-# Invite Friends
+# 邀请好友
 
-## API Documentation
+## API 文档
 
-* open dialog to invite friends to join the game
+* 打开对话框邀请好友加入游戏
 
 ```typescript
 invite(options: InviteOptions): Promise<InviteResult>
 ```
 
-* get invite url, don't open dialog
+* 获取邀请链接，不打开对话框
 
 ```typescript
 getInviteUrl(options: InviteOptions): Promise<InviteResult>
 ```
 
-* get invite payload, get/set invite payload to server, with a limit of over 64 characters
+* 获取邀请负载，从服务器获取/设置邀请负载，限制超过 64 个字符
 
 ```typescript
 getInvitePayload(key: string): Promise<InvitePayloadResult>
 ```
 
-* get start param
+* 获取启动参数
 
 ```typescript
 getStartParam(): string
 ```
 
-## Interface
+## 接口
 
 ```typescript
 interface InviteOptions {
-    expire: number; // expiration time, seconds
-    text?: string; // invite text in dialog
-    payload?: string; // save to server, over 64 characters
-    start_param?: string; // invite url with start_param, over 64 characters
+    expire: number; // 过期时间，单位秒
+    text?: string; // 对话框中的邀请文本
+    payload?: string; // 保存到服务器，超过 64 个字符
+    start_param?: string; // 带有 start_param 的邀请链接，超过 64 个字符
 }
 
 interface InviteResult {
-    invite_url: string; // invite url
-    key?: string; // payload key
+    invite_url: string; // 邀请链接
+    key?: string; // 负载键
 }
 
 interface InvitePayloadResult {
-    payload: string; // payload
+    payload: string; // 负载
 }
 ```
 
-## Example
+## 示例
 
 ```javascript
-// Initialize SDK
+// 初始化 SDK
 const portex = new Portex({
   appId: 'your-app-id'
 });
 
-// Initialize and verify user
+// 初始化并验证用户
 await portex.init();
 
-// Invite friends
+// 邀请好友
 const inviteResult = await portex.invite({
-  expire: 3600, // Expiration time (seconds)
-  text: 'Come play with me!',
+  expire: 3600, // 过期时间（秒）
+  text: '来和我一起玩吧！',
   start_param: 'custom-data'
 }); 
 ```
 
-## Notes
+## 注意事项
 
-* `payload` & `start_param` use one of them, not both
+* `payload` 和 `start_param` 只能使用其中一个，不能同时使用

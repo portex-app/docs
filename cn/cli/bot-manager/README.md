@@ -2,5 +2,5 @@
 icon: robot
 ---
 
-# Bot Manager
+# 机器人管理器
 

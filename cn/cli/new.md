@@ -2,53 +2,53 @@
 icon: grid-2-plus
 ---
 
-# New Mini-app
+# 新建小游戏
 
 ```bash
-# Publish an application, default is dev
+# 发布应用，默认为开发环境
 portex publish <app-name> <version> [-e dev|test|prod]
 ```
 
-## Description
+## 描述
 
-The `portex publish` command is used to publish a specific version of an application to a specified environment. This command allows users to deploy their applications to different environments such as development, testing, or production. If the environment is not specified, the default environment is `dev`.
+`portex publish` 命令用于将特定版本的应用发布到指定环境。此命令允许用户将应用部署到不同的环境，如开发、测试或生产环境。如果未指定环境，默认环境为 `dev`。
 
-## Parameters
+## 参数
 
-| Type     | Argument/Flag | Description                                                                                                              | Required |
+| 类型     | 参数/标志      | 描述                                                                                                              | 是否必需 |
 | -------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ | -------- |
-| **Args** | `<app-name>`  | **Required**: The name of the application to publish.                                                                    | Yes      |
-| **Args** | `<version>`   | **Required**: The version of the application to publish.                                                                 | Yes      |
-| **Flag** | `-e, --env`   | **Optional**: Specifies the environment to publish to. Acceptable values are `dev`, `test`, or `prod`. Default is `dev`. | No       |
+| **参数** | `<app-name>`  | **必需**：要发布的应用名称。                                                                    | 是      |
+| **参数** | `<version>`   | **必需**：要发布的应用版本。                                                                 | 是      |
+| **标志** | `-e, --env`   | **可选**：指定要发布到的环境。可接受的值是 `dev`、`test` 或 `prod`。默认为 `dev`。 | 否       |
 
-## Example
+## 示例
 
 ```bash
-# Publish an application named "MyApp" with version "1" to the production environment
+# 将名为 "MyApp" 的应用版本 "1" 发布到生产环境
 portex publish MyApp 1 -e prod
 ```
 
-## Interactive Input
+## 交互式输入
 
-If the `-e` flag is not provided, you will be prompted to confirm the environment before proceeding with the publish action. The available options are:
+如果未提供 `-e` 标志，系统会在执行发布操作之前提示您确认环境。可用选项包括：
 
-* **dev** (Development Environment)
-* **test** (Test Environment)
-* **prod** (Production Environment)
+* **dev**（开发环境）
+* **test**（测试环境）
+* **prod**（生产环境）
 
-## Success and Failure Messages
+## 成功和失败消息
 
-* **Success**: If the application is successfully published, you will see the following message:
-  * `Publish application success!`
-  * A preview URL will be shown, depending on the environment:
-    * **Production**: `https://<app-name>.portex.app/`
-    * **Development**: `https://<app-name>.dev.portex.app/`
-    * **Test**: `https://<app-name>.test.portex.app/`
-* **Failure**: If an error occurs during the publishing process, you will see the following message:
-  * `Publish application failed, please try again`
+* **成功**：如果应用成功发布，您将看到以下消息：
+  * `发布应用成功！`
+  * 将显示预览 URL，具体取决于环境：
+    * **生产环境**：`https://<app-name>.portex.app/`
+    * **开发环境**：`https://<app-name>.dev.portex.app/`
+    * **测试环境**：`https://<app-name>.test.portex.app/`
+* **失败**：如果在发布过程中发生错误，您将看到以下消息：
+  * `发布应用失败，请重试`
 
-## Notes
+## 注意事项
 
-* The **environment** flag (`-e`) is optional. If not provided, the default environment is `dev`.
-* After publishing, a preview URL will be generated, which you can use to access the application in the specified environment.
-* Ensure that the version you are trying to publish exists before attempting the publish action.
+* **环境**标志（`-e`）是可选的。如果未提供，默认环境为 `dev`。
+* 发布后，将生成预览 URL，您可以使用它访问指定环境中的应用。
+* 在尝试发布操作之前，请确保要发布的版本存在。

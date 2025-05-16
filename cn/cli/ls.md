@@ -2,66 +2,66 @@
 icon: table-list
 ---
 
-# Check Mini-app
+# 查看小游戏
 
 ```bash
-# List applications
+# 列出应用
 portex ls [-i <application-id>] [-n <application-name>] [-p <platform-name>]
 ```
 
-## Description
+## 描述
 
-The `portex ls` command is used to fetch and display a list of applications. You can filter the list based on the application ID, application name, or platform name. If no flags are provided, it will return all applications.
+`portex ls` 命令用于获取并显示应用列表。您可以根据应用 ID、应用名称或平台名称过滤列表。如果未提供任何标志，它将返回所有应用。
 
-## Parameters
+## 参数
 
-| Type     | Argument/Flag         | Description                                               | Required |
+| 类型     | 参数/标志         | 描述                                               | 是否必需 |
 | -------- | --------------------- | --------------------------------------------------------- | -------- |
-| **Flag** | `-i, --appId`         | **Optional**: The application ID to filter the list by.   | No       |
-| **Flag** | `-n, --appName`       | **Optional**: The application name to filter the list by. | No       |
-| **Flag** | `-p, --platform_name` | **Optional**: The platform name to filter the list by.    | No       |
-| **Flag** | `-h, --help`          | **Optional**: Display help information for the command.   | No       |
+| **标志** | `-i, --appId`         | **可选**：用于过滤列表的应用 ID。   | 否       |
+| **标志** | `-n, --appName`       | **可选**：用于过滤列表的应用名称。 | 否       |
+| **标志** | `-p, --platform_name` | **可选**：用于过滤列表的平台名称。    | 否       |
+| **标志** | `-h, --help`          | **可选**：显示命令的帮助信息。   | 否       |
 
-## Example
+## 示例
 
 ```bash
-# List all applications
+# 列出所有应用
 portex ls
 
-# List applications by application ID
+# 按应用 ID 列出应用
 portex ls -i app123
 
-# List applications by application name
+# 按应用名称列出应用
 portex ls -n MyApp
 
-# List applications by platform name
+# 按平台名称列出应用
 portex ls -p web
 ```
 
-## Success and Failure Messages
+## 成功和失败消息
 
-*   **Success**: When the list of applications is successfully fetched, the applications will be displayed in a tabular format, including details such as application ID, name, platform, description, and version.
+*   **成功**：当成功获取应用列表时，应用将以表格形式显示，包括应用 ID、名称、平台、描述和版本等详细信息。
 
-    **Sample Output**:
+    **示例输出**：
 
-| appliaction\_id             | app\_name | platform\_name | description | version |    |    |    |
+| 应用 ID             | 应用名称 | 平台名称 | 描述 | 版本 |    |    |    |
 | --------------------------- | --------- | -------------- | ----------- | ------- | -- | -- | -- |
 | last                        | dev       | test           | prod        |         |    |    |    |
 | 2vHJYRLPpqL8jEq5J79pse2uPV0 | gameva    | Web            | -           | 17      | 12 | 17 | 17 |
 
-* **Failure**: If no applications are found based on the filters or if an error occurs during the fetching process, you will see the following messages:
-  * `No application found, please create an application first`
-  * `Get application list error`
+* **失败**：如果根据过滤器未找到应用或在获取过程中发生错误，您将看到以下消息：
+  * `未找到应用，请先创建应用`
+  * `获取应用列表错误`
 
-## Notes
+## 注意事项
 
-* **Filtering**: You can filter the list of applications by providing one or more flags:
-  * `-i` for the application ID
-  * `-n` for the application name
-  * `-p` for the platform name (e.g., `web`, `telegram`)
-* **Tabular Output**: The applications are displayed in a table with the following columns:
-  * **appliaction\_id**: The unique ID of the application.
-  * **app\_name**: The name of the application.
-  * **platform\_name**: The platform on which the application is deployed (e.g., `web`).
-  * **description**: A brief description of the application.
-  * **version**: The application version, including its last, development, test, and production versions.
+* **过滤**：您可以通过提供一个或多个标志来过滤应用列表：
+  * `-i` 用于应用 ID
+  * `-n` 用于应用名称
+  * `-p` 用于平台名称（例如，`web`、`telegram`）
+* **表格输出**：应用在表格中显示，包含以下列：
+  * **应用 ID**：应用的唯一标识符。
+  * **应用名称**：应用的名称。
+  * **平台名称**：应用部署的平台（例如，`web`）。
+  * **描述**：应用的简要描述。
+  * **版本**：应用版本，包括其最新、开发、测试和生产版本。

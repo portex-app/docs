@@ -2,24 +2,24 @@
 icon: message-question
 ---
 
-# FAQs
+# 常见问题
 
-### What is Portex?
+### 什么是 Portex？
 
-Portex integrates Bot-as-a-Service for **one-click mini-game deployment** to mutiple platforms, reducing over 90% of cross-platform compatibility work.
+Portex 集成了 Bot-as-a-Service 服务，实现**一键式小游戏部署**到多个平台，减少超过 90% 的跨平台兼容性工作。
 
-### What is Portex CLI?
+### 什么是 Portex CLI？
 
-Portex CLI is a command line tool for creating and managing mini-games on multiple platforms.
+Portex CLI 是一个命令行工具，用于在多个平台上创建和管理小游戏。
 
-How to use portex cli? see [Portex CLI](cli/overview.md)
+如何使用 portex cli？请查看 [Portex CLI](cli/overview.md)
 
-### How to get portex cli access token?
+### 如何获取 portex cli 访问令牌？
 
-Portex cli is in closed beta, you can get access token from [https://t.me/televerseadmin](https://t.me/televerseadmin), or contact us by email [mailto:official@teletypes.io](mailto:official@teletypes.io)
+Portex cli 目前处于封闭测试阶段，您可以从 [https://t.me/televerseadmin](https://t.me/televerseadmin) 获取访问令牌，或通过邮件 [mailto:official@teletypes.io](mailto:official@teletypes.io) 联系我们
 
-### What is Portex SDK?
+### 什么是 Portex SDK？
 
-Portex SDK is a software development kit for creating mini-games on multiple platforms.
+Portex SDK 是一个软件开发工具包，用于在多个平台上创建小游戏。
 
-For more details. please see [Portex SDK](sdk/overview.md)
+更多详情，请查看 [Portex SDK](sdk/overview.md)

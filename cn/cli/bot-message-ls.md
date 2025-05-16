@@ -1,30 +1,30 @@
-# List Telegram Bot Messages
+# 列出 Telegram 机器人消息
 
 ```bash
-# Get the list of messages for a Telegram bot
+# 获取 Telegram 机器人的消息列表
 portex bot message ls <app-name>
 ```
 
-## Description
+## 描述
 
-The `portex bot message ls` command is used to retrieve the list of messages associated with a specified Telegram bot for a given application. This command allows users to view all the messages that have been saved for the bot.
+`portex bot message ls` 命令用于获取指定应用的 Telegram 机器人的消息列表。此命令允许用户查看已为机器人保存的所有消息。
 
-## Parameters
+## 参数
 
-| Type     | Argument/Flag | Description                                                           | Required |
+| 类型     | 参数/标志      | 描述                                                           | 是否必需 |
 | -------- | ------------- | --------------------------------------------------------------------- | -------- |
-| **Args** | `<app-name>`  | **Required**: The name of the application for which to list messages. | Yes      |
+| **参数** | `<app-name>`  | **必需**：要列出消息的应用名称。 | 是      |
 
-## Example
+## 示例
 
 ```bash
-# List messages for the application named "MyApp"
+# 列出名为 "MyApp" 的应用的消息
 portex bot message ls MyApp
 ```
 
-## Success and Failure Messages
+## 成功和失败消息
 
-- **Success**: If the messages are retrieved successfully, you will see a table output displaying the message keys and their corresponding content:
+- **成功**：如果消息获取成功，您将看到一个表格输出，显示消息键及其对应的内容：
 
   ```
   +----------------+--------------------------+
@@ -35,16 +35,16 @@ portex bot message ls MyApp
   +----------------+--------------------------+
   ```
 
-- **Failure**: If an error occurs during the retrieval process, you will see the following message:
-  - `get bot message failed`
-  - If the application is not bound to a Telegram Bot, the following message will be displayed:
-    - `Telegram Application is not bound to a Telegram bot. Please use 'portex bot register <application_name> <bot_token>' to bind a Telegram bot before getting the bot message list.`
-  - If no messages are found, the following message will be displayed:
-    - `No message found`
-  - If the platform is not Telegram, the following message will be displayed:
-    - `Only Telegram Application supports.`
+- **失败**：如果在获取过程中发生错误，您将看到以下消息：
+  - `获取机器人消息失败`
+  - 如果应用未绑定 Telegram 机器人，将显示以下消息：
+    - `Telegram 应用未绑定 Telegram 机器人。请使用 'portex bot register <application_name> <bot_token>' 在获取机器人消息列表之前绑定 Telegram 机器人。`
+  - 如果未找到消息，将显示以下消息：
+    - `未找到消息`
+  - 如果平台不是 Telegram，将显示以下消息：
+    - `仅支持 Telegram 应用。`
 
-## Notes
+## 注意事项
 
-- **Platform Support**: The `portex bot message ls` command is only supported for applications bound to the Telegram platform.
-- **Error Handling**: Make sure to handle any potential errors during the retrieval process to provide appropriate feedback.
+- **平台支持**：`portex bot message ls` 命令仅支持绑定到 Telegram 平台的应用。
+- **错误处理**：确保在获取过程中处理任何潜在错误，以提供适当的反馈。

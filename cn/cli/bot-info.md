@@ -1,30 +1,30 @@
-# Manage Telegram Bot for Mini-App
+# 管理小游戏的 Telegram 机器人
 
 ```bash
-# Manage bots in the mini-app
+# 管理小游戏中的机器人
 portex bot <app-name>
 ```
 
-## Description
+## 描述
 
-The `portex bot` command is used to manage Telegram bots that are bound to mini-apps. This command retrieves and displays information about the Telegram bot associated with the specified mini-app. The `portex bot` command is only applicable to mini-apps hosted on the Telegram platform.
+`portex bot` 命令用于管理绑定到小游戏的 Telegram 机器人。此命令获取并显示与指定小游戏关联的 Telegram 机器人的信息。`portex bot` 命令仅适用于托管在 Telegram 平台上的小游戏。
 
-## Parameters
+## 参数
 
-| Parameter    | Description                                                                                                                                    | Required |
+| 参数         | 描述                                                                                                                                    | 是否必需 |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| `<app-name>` | The name of the application. This parameter is required and should correspond to the name of the mini-app that you want to manage the bot for. | Yes      |
+| `<app-name>` | 应用的名称。此参数是必需的，应该对应于您想要管理机器人的小游戏的名称。 | 是      |
 
-## Example
+## 示例
 
 ```bash
-# Display information about the Telegram bot bound to the "MyApp" application
+# 显示绑定到 "MyApp" 应用的 Telegram 机器人的信息
 portex bot MyApp
 ```
 
-## Success and Failure Messages
+## 成功和失败消息
 
-- **Success**: After successfully retrieving the bot's information, the system will display the following table:
+- **成功**：成功获取机器人信息后，系统将显示以下表格：
 
   ```
   +----------------------+------------------------------------------------------------------+-----------------------------------------+
@@ -34,29 +34,29 @@ portex bot MyApp
   +----------------------+------------------------------------------------------------------+-----------------------------------------+
   ```
 
-- **Failure**: If the application is not bound to a Telegram bot, an error message will be shown:
+- **失败**：如果应用未绑定 Telegram 机器人，将显示错误消息：
 
   ```
-  Telegram Application is not bound to a Telegram bot. Please use 'portex bot register MyApp <bot_token>' to bind a Telegram bot before setting menu.
+  Telegram 应用未绑定 Telegram 机器人。请使用 'portex bot register MyApp <bot_token>' 在设置菜单之前绑定 Telegram 机器人。
   ```
 
-  Additionally, if the platform is not Telegram, the following error message will be displayed:
+  此外，如果平台不是 Telegram，将显示以下错误消息：
 
   ```
-  Only Telegram Platform Application supports.
+  仅支持 Telegram 平台应用。
   ```
 
-## Notes
+## 注意事项
 
-- **Platform Support**: The `portex bot` command is only supported for mini-apps that are hosted on the Telegram platform.
-- **Bot Registration**: If the mini-app is not bound to a Telegram bot, you can register the bot using the `portex bot register` command, providing the bot token as an argument.
+- **平台支持**：`portex bot` 命令仅支持托管在 Telegram 平台上的小游戏。
+- **机器人注册**：如果小游戏未绑定 Telegram 机器人，您可以使用 `portex bot register` 命令注册机器人，提供机器人令牌作为参数。
 
-## Additional Information
+## 附加信息
 
-- **Register a Bot**: If you need to register a Telegram bot for your mini-app, you can use the following command:
+- **注册机器人**：如果您需要为小游戏注册 Telegram 机器人，可以使用以下命令：
 
   ```bash
   portex bot register <app-name> <bot-token>
   ```
 
-- **Bot Management**: Once the bot is registered, you can manage the bot's settings, including menus and other configurations, using additional bot commands.
+- **机器人管理**：一旦机器人注册，您可以使用其他机器人命令管理机器人的设置，包括菜单和其他配置。

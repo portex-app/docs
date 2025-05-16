@@ -1,32 +1,32 @@
-# Table of contents
+# 目录
 
-## Getting Started
+## 开始使用
 
-* [Introduction](README.md)
-* [Workflow](getting-started/workflow.md)
-* [ShowCase](getting-started/showcase.md)
-* [FAQs](getting-started/faqs.md)
+* [简介](README.md)
+* [工作流程](getting-started/workflow.md)
+* [展示案例](getting-started/showcase.md)
+* [常见问题](getting-started/faqs.md)
 
-## CLI
+## 命令行工具
 
-* [Overview](cli/overview.md)
-* [New Mini-app](cli/new.md)
-* [Check Mini-app](cli/ls.md)
-* [Deploy Mini-app](cli/deploy.md)
-* [Publish Mini-app](cli/publish.md)
-* [Bot Manager](cli/bot-manager/README.md)
-  * [Bind Telegram Bot](cli/bot-register.md)
-  * [Get Bot Info](cli/bot-info.md)
-  * [Bot Menu](cli/bot-manager/bot-menu/README.md)
-    * [Set Menu Button](cli/bot-menu-set.md)
-  * [Bot Message](cli/bot-manager/bot-message/README.md)
-    * [List Messages](cli/bot-message-ls.md)
-    * [Save Message](cli/bot-message-save.md)
-    * [Delete Message](cli/bot-message-del.md)
+* [概述](cli/overview.md)
+* [新建小游戏](cli/new.md)
+* [查看小游戏](cli/ls.md)
+* [部署小游戏](cli/deploy.md)
+* [发布小游戏](cli/publish.md)
+* [机器人管理](cli/bot-manager/README.md)
+  * [绑定 Telegram 机器人](cli/bot-register.md)
+  * [获取机器人信息](cli/bot-info.md)
+  * [机器人菜单](cli/bot-manager/bot-menu/README.md)
+    * [设置菜单按钮](cli/bot-menu-set.md)
+  * [机器人消息](cli/bot-manager/bot-message/README.md)
+    * [消息列表](cli/bot-message-ls.md)
+    * [保存消息](cli/bot-message-save.md)
+    * [删除消息](cli/bot-message-del.md)
 
 ## SDK
 
-* [Overview](sdk/overview.md)
-* [Friend Referral](sdk/social.md)
-* [Payment](sdk/payment.md)
-* [Webapp Adapter](sdk/webapp.md)
+* [概述](sdk/overview.md)
+* [好友推荐](sdk/social.md)
+* [支付功能](sdk/payment.md)
+* [Web 应用适配器](sdk/webapp.md)

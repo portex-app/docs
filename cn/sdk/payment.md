@@ -1,24 +1,23 @@
 ---
 description: >-
-  portex.pay is a feature that allows users to pay for virtual goods. (now only
-  for telegram stars)
+  portex.pay 是一个允许用户为虚拟商品付费的功能。（目前仅支持 telegram stars）
 icon: cart-shopping
 ---
 
-# Payment
+# 支付
 
 ![portex.pay](../assets/pay_star.png)
 
-## Features
+## 功能
 
-* customizable payment goods
-* serverless payment process
-* payment status tracking
-* payment exception handling
+* 可自定义支付商品
+* 无服务器支付流程
+* 支付状态跟踪
+* 支付异常处理
 
-## API Documentation
+## API 文档
 
-* open payment dialog
+* 打开支付对话框
 
 ```typescript
 pay(
@@ -27,13 +26,13 @@ pay(
 ): Promise<PaymentResult>
 ```
 
-* query payment order
+* 查询支付订单
 
 ```typescript
 queryOrder(orderId: string): Promise<OrderResult>
 ```
 
-* resume payment
+* 恢复支付
 
 ```typescript
 resumePayment(
@@ -41,54 +40,54 @@ resumePayment(
 ): Promise<null | PaymentResult>
 ```
 
-* check pending payment
+* 检查待处理支付
 
 ```typescript
 hasPendingPayment(): boolean
 ```
 
-## Interface
+## 接口
 
 ```typescript
 interface PaymentOptions {
-    tg_use_id: string; // telegram user id
-    amount: number; // amount in rubles
-    label: string; // label
-    title: string; // title
-    description: string; // description
-    payload?: string; // payload
-    photo_height?: number; // photo height
-    photo_width?: number; // photo width
-    photo_size?: number; // photo size
-    photo_url?: string; // photo url
-    callback_url?: string; // callback url
+    tg_use_id: string; // telegram 用户 ID
+    amount: number; // 金额（卢布）
+    label: string; // 标签
+    title: string; // 标题
+    description: string; // 描述
+    payload?: string; // 负载
+    photo_height?: number; // 图片高度
+    photo_width?: number; // 图片宽度
+    photo_size?: number; // 图片大小
+    photo_url?: string; // 图片链接
+    callback_url?: string; // 回调链接
 }
 
 interface PaymentResult {
-    tg_payment_id: number; // telegram payment id
-    tg_payment_url: string; // telegram payment url
+    tg_payment_id: number; // telegram 支付 ID
+    tg_payment_url: string; // telegram 支付链接
 }
 
 interface InvoiceClosedResult {
-    orderId: number; // order id
-    status: "failed" | "paid" | "cancelled" | "pending"; // status
+    orderId: number; // 订单 ID
+    status: "failed" | "paid" | "cancelled" | "pending"; // 状态
 }
 
 interface OrderResult {
-    amount: number; // amount in rubles
-    application_id: string; // application id
-    description: string; // description
-    label: string; // label
-    payload: string; // payload
-    status: number; // status
-    status_description: string; // status description
-    tg_payment_id: string; // telegram payment id
-    tg_use_id: string; // telegram user id
-    title: string; // title
+    amount: number; // 金额（卢布）
+    application_id: string; // 应用 ID
+    description: string; // 描述
+    label: string; // 标签
+    payload: string; // 负载
+    status: number; // 状态
+    status_description: string; // 状态描述
+    tg_payment_id: string; // telegram 支付 ID
+    tg_use_id: string; // telegram 用户 ID
+    title: string; // 标题
 }
 ```
 
-## Example
+## 示例
 
 ```typescript
 const portex = new Portex({
@@ -111,10 +110,10 @@ const result = await portex.pay({
     photo_url: 'https://your-photo-url.com'
 },(result) => {
     if (portex.hasPendingPayment()) {
-        // payment is pending or cancelled
+        // 支付待处理或已取消
     }else{
-        // payment is paid
-        // get payment result
+        // 支付已完成
+        // 获取支付结果
         const paymentResult = await portex.queryOrder(result.orderId);
     }
 });

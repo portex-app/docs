@@ -2,40 +2,40 @@
 icon: arrow-progress
 ---
 
-# Workflow
+# 工作流程
 
-![Portex workflow](../assets/workflow.png)
+![Portex 工作流程](../assets/workflow.png)
 
-## 1. Deploy a mini-game for testing
+## 1. 部署小游戏进行测试
 
-* install portex cli
+* 安装 portex cli
 
 ```bash
 npm install -g @portex-app/cli
 ```
 
-* run `portex new` to create a new mini-game
-* run `portex deploy` to deploy a mini-game for testing
+* 运行 `portex new` 创建新的小游戏
+* 运行 `portex deploy` 部署小游戏进行测试
 
-more details in [Use CLI](guides/cli.md)
+更多详情请查看[使用 CLI](guides/cli.md)
 
-## 2. Create a bot in Telegram
+## 2. 在 Telegram 中创建机器人
 
-* open telegram and search @BotFather
-* start /newbot in chat
-* set a name for your bot
-* get the bot token
+* 打开 Telegram 并搜索 @BotFather
+* 在聊天中开始 /newbot
+* 为您的机器人设置名称
+* 获取机器人令牌
 
-## 3. Configure bot in Portex
+## 3. 在 Portex 中配置机器人
 
-* use `portex bot` to configure bot
-* run `portex bot register <app-name> <bot-token>` to register bot
+* 使用 `portex bot` 配置机器人
+* 运行 `portex bot register <app-name> <bot-token>` 注册机器人
 
-## 4. Integrate  Portex SDK to your mini-game
+## 4. 将 Portex SDK 集成到您的小游戏中
 
-* import https://sdk.portex.app/portex-sdk.min.js to your mini-game
-* you can run `portex ls` to list all your mini-games with app-id
-* initialize Portex SDK with your app-id
+* 将 https://sdk.portex.app/portex-sdk.min.js 导入到您的小游戏中
+* 您可以运行 `portex ls` 列出所有带有应用 ID 的小游戏
+* 使用您的应用 ID 初始化 Portex SDK
 
 ```javascript
 const portex = new Portex({
@@ -45,8 +45,8 @@ const portex = new Portex({
 const result = await sdk.init();
 ```
 
-more details in [Portex SDK](sdk/overview.md)
+更多详情请查看[Portex SDK](sdk/overview.md)
 
-## 5. Publish your mini-game&#x20;
+## 5. 发布您的小游戏
 
-* run `portex publish` to publish your mini-game for production
+* 运行 `portex publish` 将您的小游戏发布到生产环境

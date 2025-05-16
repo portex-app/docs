@@ -18,30 +18,29 @@ layout:
     visible: true
 ---
 
-# Introduction
+# 简介
 
-## What is Portex?
+## 什么是 Portex？
 
-Portex integrates Bot-as-a-Service for **one-click mini-game deployment** to mutiple platforms, reducing over 90% of cross-platform compatiability work.
+Portex 集成了 Bot-as-a-Service 服务，实现**一键式小游戏部署**到多个平台，减少超过 90% 的跨平台兼容性工作。
 
-![Portex infra](assets/portex.png)
+![Portex 基础设施](assets/portex.png)
 
-## Benefits
+## 优势
 
-* Easy to launch mini-game, low learning curve
-* Seamless integration with Telegram, and more platforms
-* Blockchain integration, friend referrals system, Telegram StarFi and etc. \
+* 轻松发布小游戏，学习曲线低
+* 与 Telegram 等平台无缝集成
+* 区块链集成、好友推荐系统、Telegram StarFi 等功能
 
+## 主要特性
 
-## Key Features
+* **一键部署**：一键将小游戏部署到多个平台，降低分发成本
+* **Bot 即服务**：为游戏提供无缝的社区管理服务，实现自动化用户互动
+* **Web3 游戏**：集成去中心化身份验证和数字钱包功能，确保安全认证和流畅交易
+* **变现功能**：集成 StarFi 实现游戏内购买和提现
+* **游戏功能**：排行榜、游戏存档等（即将推出）
 
-* **One-click Deployment**: Deploy mini-games across multiple platforms with a single click, reducing distribution costs.
-* **Bot as a Service**: Seamless community management service for games, enabling automated user engagement.
-* **Web3 Gaming**: Integrate decentralized identity verification and digital wallet functionalities for secure authentication and seamless transactions.
-* **Monetization**: StarFi integration for in-game purchases & and withdrawl
-* **Gameplay Features**: Leaderboard, GameSave, and more. (Coming soon)
-
-## Showcase
+## 展示案例
 
 <div><figure><img src=".gitbook/assets/AirForce.png" alt="" width="113"><figcaption><p><strong>AirForce 1945</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/mini football.png" alt="" width="113"><figcaption><p><strong>Mini Football Game</strong></p></figcaption></figure> <figure><img src=".gitbook/assets/car.avif" alt="" width="113"><figcaption><p><strong>Mad Wheels</strong></p></figcaption></figure></div>
 
@@ -49,18 +48,18 @@ Portex integrates Bot-as-a-Service for **one-click mini-game deployment** to mut
 * **Mini Football** [https://t.me/miniFootballgame\_bot?startapp=portex](https://t.me/miniFootballgame_bot?startapp=portex)
 * **MadWheels** [https://t.me/MadWheels\_bot](https://t.me/MadWheels_bot)
 
-🎮 [Show me more...](getting-started/showcase.md)
+🎮 [查看更多...](getting-started/showcase.md)
 
-## How It Works?
+## 如何使用？
 
-1. First, use [portex cli](cli/overview.md) to create a new mini-game, deploy it, and publish it.
-2. Integrate [portex sdk](sdk/overview.md) to develop your mini-game.
+1. 首先，使用 [portex cli](cli/overview.md) 创建、部署和发布新的小游戏
+2. 集成 [portex sdk](sdk/overview.md) 来开发您的小游戏
 
-See more details in [Workflow](getting-started/workflow.md)
+更多详情请查看[工作流程](getting-started/workflow.md)
 
-## Contact us
+## 联系我们
 
-<figure><img src="assets/contact.png" alt="contact us" width="128"><figcaption></figcaption></figure>
+<figure><img src="assets/contact.png" alt="联系我们" width="128"><figcaption></figcaption></figure>
 
 [https://www.televerse.xyz/](https://www.televerse.xyz/)
 
@@ -72,6 +71,6 @@ See more details in [Workflow](getting-started/workflow.md)
 
 [mailto:official@teletypes.io](mailto:official@teletypes.io)
 
-## More Topic
+## 更多主题
 
-<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Build mini-game with portex</td><td><a href="getting-started/workflow.md">workflow.md</a></td></tr><tr><td>How to use portex cli</td><td><a href="cli/overview.md">overview.md</a></td></tr><tr><td>About Portex SDK</td><td><a href="sdk/overview.md">overview.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>使用 portex 构建小游戏</td><td><a href="getting-started/workflow.md">workflow.md</a></td></tr><tr><td>如何使用 portex cli</td><td><a href="cli/overview.md">overview.md</a></td></tr><tr><td>关于 Portex SDK</td><td><a href="sdk/overview.md">overview.md</a></td></tr></tbody></table>
