@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="en/README.md">English</a> | <a href="cn/README.md">中文</a>
+  <a href="https://portex-app.gitbook.io/portex-docs" target="_blank">English</a> | <a href="https://portex-app.gitbook.io/portex-docs/cn" target="_blank">中文</a>
 </div>
 
 # Introduction
