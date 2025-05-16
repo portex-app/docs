@@ -24,7 +24,7 @@ Portex integrates Bot-as-a-Service for **one-click mini-game deployment** to mut
 * **One-click Deployment**: Deploy mini-games across multiple platforms with a single click, reducing distribution costs.
 * **Bot as a Service**: Seamless community management service for games, enabling automated user engagement.
 * **Web3 Gaming**: Integrate decentralized identity verification and digital wallet functionalities for secure authentication and seamless transactions.
-* **Monetization**: StarFi integration for in-game purchases & and withdraw
+* **Monetization**: StarFi integration for in-game purchases and withdraw.
 * **Gameplay Features**: Leaderboard, GameSave,Invite and more. 
 
 ## Showcase
