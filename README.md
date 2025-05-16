@@ -1,3 +1,7 @@
+<div align="center">
+  <a href="en/README.md">English</a> | <a href="cn/README.md">中文</a>
+</div>
+
 # Introduction
 
 ## What is Portex?
