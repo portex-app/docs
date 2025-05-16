@@ -1,3 +1,5 @@
+![Portex Welcome](en/.gitbook/assets/portex_welcome.jpg)
+
 <div align="center">
   <a href="https://portex-app.gitbook.io/portex-docs" target="_blank">English</a> | <a href="https://portex-app.gitbook.io/portex-docs/cn" target="_blank">中文</a>
 </div>
@@ -27,7 +29,7 @@ Portex integrates Bot-as-a-Service for **one-click mini-game deployment** to mut
 
 ## Showcase
 
-<div><figure><img src="en/.gitbook/assets/AirForce.png" alt="" width="113"><figcaption><p><strong>AirForce 1945</strong></p></figcaption></figure> <figure><img src="en/.gitbook/assets/mini football.png" alt="" width="113"><figcaption><p><strong>Mini Football Game</strong></p></figcaption></figure> <figure><img src="en/.gitbook/assets/car.avif" alt="" width="113"><figcaption><p><strong>Mad Wheels</strong></p></figcaption></figure></div>
+<img src="en/.gitbook/assets/AirForce.png" alt="AirForce 1945" width="150"> <img src="en/.gitbook/assets/mini%20football.png" alt="Mini Football Game" width="150"> <img src="en/.gitbook/assets/car.avif" alt="Mad Wheels" width="150">
 
 * **AirForce 1945** [https://t.me/AirForce1945\_bot/game](https://t.me/AirForce1945_bot/game)
 * **Mini Football** [https://t.me/miniFootballgame\_bot?startapp=portex](https://t.me/miniFootballgame_bot?startapp=portex)
