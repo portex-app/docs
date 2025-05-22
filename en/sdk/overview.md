@@ -11,8 +11,8 @@ icon: boxes-packing
 
 ### Install
 
-* inline `https://sdk.portex.app/portex-sdk.min.js` to your mini-game
-* or build from source code
+- inline `https://sdk.portex.app/portex-sdk.min.js` to your mini-game
+- or build from source code
 
 ```bash
 git clone https://github.com/portex-app/portex-sdk.git
@@ -26,43 +26,42 @@ pnpm build
 
 > Note: this is a beta version, you can only use it in telegram. get app-id from [Portex CLI](../cli/overview.md)
 
-* initialize Portex SDK with your app-id
+- initialize Portex SDK with your app-id
 
 ```javascript
 const portex = new Portex({
-  appId: 'your-app-id',
-});
+	appId: 'your-app-id',
+})
 
 try {
-  const result = await portex.init();
+	const result = await portex.init()
 
-  if (result.status === 'ok') {
-    // init success
-    // get user info
-    consle.log(sdk.webApp.initDataUnsafe);
-  } else {
-    // init failed
-  }
+	if (result.status === 'ok') {
+		// init success
+		// get user info
+		consle.log(sdk.webApp.initDataUnsafe)
+	} else {
+		// init failed
+	}
 } catch (error) {
-  console.error(error);
+	console.error(error)
 }
-
 ```
 
-* SDK Demo: https://t.me/portex\_app\_bot?startapp
+- SDK Demo: https://t.me/portex\_app\_bot?startapp
 
 ### SDK Features
 
-* [Social Invite](sdk/social.md)
-* [Payment](sdk/payment.md)
-* [Webapp Adapter](sdk/webapp.md)
-* ads (coming soon)
-* leaderboard (coming soon)
-* game save (coming soon)
+- [Social Invite](sdk/social.md)
+- [Payment](sdk/payment.md)
+- [Webapp Adapter](sdk/webapp.md)
+- ads (coming soon)
+- leaderboard (coming soon)
+- game save (coming soon)
 
 ### API Reference
 
-* [Portex SDK API](https://sdk.portex.app/docs/index.html)
+- [Portex SDK API](https://sdk.portex.app/docs/index.html)
 
 ### Source
 
