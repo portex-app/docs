@@ -2,27 +2,28 @@
 description: >-
   portex.leaderboard provides leaderboard capabilities for games or applications
   icon:ranking-star
+icon: horse
 ---
 
 # Leaderboard
 
 ## API Documentation
 
-- Submit user score
+* Submit user score
 
 ```typescript
 updateUserLeaderboardScore(options:LeaderboardUpdateUserScoreOptions):Promise<void>
 
 ```
 
-- Get topN leaderboard data
+* Get topN leaderboard data
 
 ```typescript
 getLeaderboardTopN(options: LeaderboardTopNOptions): Promise<LeaderboardTopNResult>
 
 ```
 
-- Get user's leaderboard rank information
+* Get user's leaderboard rank information
 
 ```typescript
  getLeaderboardRank(options: LeaderboardRankOptions): Promise<LeaderboardRankResult>
@@ -116,5 +117,5 @@ const leaderboardTopN = await portex.getLeaderboardTopN({
 
 ## Notes
 
-- `top_n` has a maximum limit of 1000, exceeding this will throw an exception
-- The `userLeaderboardRank` function will return an exception if the rank exceeds 10000
+* `top_n` has a maximum limit of 1000, exceeding this will throw an exception
+* The `userLeaderboardRank` function will return an exception if the rank exceeds 10000
