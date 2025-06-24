@@ -1,28 +1,27 @@
 ---
-description: >-
-  portex.leaderboard 为游戏或者应用提供排行榜能力
-  icon:ranking-star
+description: portex.leaderboard 为游戏或者应用提供排行榜能力 icon:ranking-star
+icon: horse
 ---
 
-# 排行榜
+# 排行榜功能
 
 ## API 文档
 
-- 提交用户分数
+* 提交用户分数
 
 ```typescript
 updateUserLeaderboardScore(options:LeaderboardUpdateUserScoreOptions):Promise<void>
 
 ```
 
-- 获取 topN 排行榜数据
+* 获取 topN 排行榜数据
 
 ```typescript
 getLeaderboardTopN(options: LeaderboardTopNOptions): Promise<LeaderboardTopNResult>
 
 ```
 
-- 获取用户的排行榜排名信息
+* 获取用户的排行榜排名信息
 
 ```typescript
  getLeaderboardRank(options: LeaderboardRankOptions): Promise<LeaderboardRankResult>
@@ -117,5 +116,5 @@ const leaderboardTopN = await portex.getLeaderboardTopN({
 
 ## 注意事项
 
-- `top_n` 最大上限是 1000 超出会抛出异常
-- 函数`userLeaderboardRank` 获取用户排行，超出 10000 会返回异常
+* `top_n` 最大上限是 1000 超出会抛出异常
+* 函数`userLeaderboardRank` 获取用户排行，超出 10000 会返回异常
