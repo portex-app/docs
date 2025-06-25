@@ -1,7 +1,7 @@
 ---
 description: >-
-  portex.leaderboard provides leaderboard capabilities for games or applications
-  icon:ranking-star
+  portex.leaderboard provides leaderboard capabilities for games or
+  applications.
 icon: horse
 ---
 
